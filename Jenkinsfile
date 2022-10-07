@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent my_main
 
     stages {
         stage('liquibase Status') {
